@@ -13,7 +13,7 @@ No ejecutes las habilidades tú directamente: identifica la habilidad correcta y
 
 Si el usuario no sabe por dónde empezar, hazle 2-3 preguntas breves para situarle:
 
-1. **¿Qué tienes ya?** ¿Un reto difuso, evidencias sin ordenar, aprendizajes, iniciativas, hipótesis, un experimento ya hecho?
+1. **¿Qué tienes ya?** ¿Un reto difuso, evidencias sin ordenar, aprendizajes, una iniciativa, una hipótesis, un experimento ya hecho?
 2. **¿Qué necesitas conseguir ahora?** ¿Entender mejor, sintetizar, decidir, idear, validar, medir?
 3. **¿Tienes algún material de partida?** (research, mapa de servicio, métricas, etc.)
 
@@ -27,60 +27,60 @@ Objetivo: entender el reto, el sistema y las señales antes de decidir nada.
 
 | Si el usuario necesita… | Skill |
 |---|---|
-| Hacer una primera lectura del reto y su contexto | `descubrir-comprender-contexto` (0101) |
-| Mapear actores, canales, procesos, frontstage/backstage | `descubrir-mapear-sistema` (0102) |
-| Recoger y seleccionar evidencias (citas, datos, incidencias) | `descubrir-investigar-evidencias` (0103) |
-| Agrupar señales y detectar patrones, tensiones, contradicciones | `descubrir-detectar-patrones` (0104) |
+| Hacer una primera lectura del reto y su contexto estratégico | `descubrir-comprender-contexto-y-reto` (0101) |
+| Orientarse en el sistema: actores, canales, procesos, handoffs, frontstage/backstage | `descubrir-explorar-como-funciona-el-servicio` (0102) |
+| Recoger y seleccionar evidencias trazables (citas, datos, incidencias) | `descubrir-investigar-y-capturar-evidencias` (0103) |
+| Agrupar señales y detectar patrones, tensiones y contradicciones | `descubrir-detectar-patrones-iniciales` (0104) |
 
-**Saltar a Fase 02 cuando:** tengas patrones y evidencias suficientes para empezar a sintetizar qué cambia en tu comprensión.
+**Saltar a Fase 02 cuando:** tengas patrones y evidencias suficientes para empezar a sintetizar qué cambia en tu comprensión del servicio.
 
 ### Fase 02 — Definir y sintetizar
 
-Objetivo: convertir señales en aprendizajes, modelar el servicio y formular el reto.
+Objetivo: convertir señales en aprendizajes, modelar el servicio y formular el reto con impacto.
 
 | Si el usuario necesita… | Skill |
 |---|---|
-| Convertir señales dispersas en aprendizajes que activen decisión | `definir-sintetizar-evidencias` (0201) |
-| Construir una narrativa que conecte insights, causas y consecuencias | `definir-narrativa-insights` (0202) |
-| Representar el servicio (journey, blueprint, frontstage/backstage) | `definir-modelar-servicio` (0203) |
-| Formular el reto con impacto, valor, cambio esperado y métricas | `definir-formular-reto` (0204) |
+| Convertir evidencias y patrones en aprendizajes accionables | `definir-sintetizar-evidencias-y-aprendizajes` (0201) |
+| Conectar aprendizajes con sistema e impacto en una lectura sistémica | `definir-construir-lectura-sistemica-de-los-aprendizajes` (0202) |
+| Representar el servicio para explicar el diagnóstico (journey, blueprint, frontstage/backstage) | `definir-modelar-el-servicio-para-explicar-el-diagnostico` (0203) |
+| Formular el reto con enfoque IDG™ (negocio, reto, cambio esperado) | `definir-formular-retos-con-impacto-idg` (0204) |
 
-**Saltar a Fase 03 cuando:** el reto esté formulado como problema abierto y con dirección estratégica clara.
+**Saltar a Fase 03 cuando:** el reto esté formulado como problema abierto con dirección estratégica clara y cambio esperado observable.
 
 ### Fase 03 — Idear y formular apuestas
 
-Objetivo: generar y priorizar iniciativas e hipótesis testeables.
+Objetivo: generar, seleccionar, esbozar y convertir iniciativas en hipótesis priorizadas.
 
 | Si el usuario necesita… | Skill |
 |---|---|
-| Generar iniciativas diversas conectadas con el reto | `idear-generar-iniciativas` (0301) |
-| Comparar y seleccionar iniciativas a seguir trabajando | `idear-converger-iniciativas` (0302) |
-| Convertir una iniciativa en una hipótesis testeable | `idear-formular-hipotesis` (0303) |
-| Priorizar hipótesis por valor y riesgo | `idear-priorizar-hipotesis` (0304) |
+| Abrir el abanico de iniciativas posibles (sin filtrar todavía) | `idear-generar-iniciativas` (0301) |
+| Comparar y seleccionar pocas iniciativas prometedoras y diversas | `idear-converger-y-seleccionar-iniciativas` (0302) |
+| Esbozar cómo cambiaría el servicio si la iniciativa funcionase (to-be) | `idear-esbozar-el-escenario-to-be-de-una-iniciativa` (0303) |
+| Convertir la iniciativa en hipótesis causales testeables | `idear-formular-hipotesis` (0304) |
+| Priorizar hipótesis por valor potencial y riesgo (4 cuadrantes) | `idear-priorizar-hipotesis-riesgo-valor` (0305) |
 
-**Saltar a Fase 04 cuando:** tengas al menos una hipótesis priorizada y sus riesgos / incógnitas identificadas.
+**Saltar a Fase 04 cuando:** tengas al menos una hipótesis priorizada con su lógica causal y supuestos identificados.
 
 ### Fase 04 — Validar, medir e iterar
 
-Objetivo: aprender con la mínima inversión, decidir y medir el impacto.
+Objetivo: identificar la incógnita crítica, aprender con la mínima inversión, decidir y medir impacto.
 
 | Si el usuario necesita… | Skill |
 |---|---|
-| Decidir qué riesgo o incógnita resolver antes | `validar-priorizar-riesgos` (0401) |
-| Diseñar el experimento más ligero para aprender | `validar-disenar-experimentos` (0402) |
-| Definir el artefacto / prototipo mínimo para poner a prueba | `validar-prototipar` (0403) |
-| Interpretar resultados y decidir continuar / pivotar / parar | `validar-sintetizar-decidir` (0404) |
-| Hacer seguimiento de métricas conectadas al reto | `validar-medir-metricas` (0405) |
+| Identificar la incógnita crítica que sostiene la hipótesis | `validar-identificar-la-incognita-critica` (0401) |
+| Diseñar 3 opciones de experimento (rápido / ligero / robusto) | `validar-disenar-experimentos` (0402) |
+| Interpretar resultados y decidir (avanzar/ajustar/repetir/descartar/pausar/repriorizar) | `validar-sintetizar-aprendizaje-y-decidir` (0403) |
+| Planificar seguimiento de métricas conectadas a aprendizaje y decisión | `validar-medir-y-hacer-seguimiento-de-metricas` (0404) |
 
-**Cerrar el ciclo o re-iterar cuando:** la decisión esté tomada. Si aparecen nuevas dudas o el aprendizaje reformula el reto, volver a la fase apropiada.
+**Cerrar el ciclo o re-iterar cuando:** la decisión esté tomada. Si aparecen nuevas incógnitas o el aprendizaje reformula el reto, volver a la fase apropiada.
 
 ## 3. Flujos típicos según punto de partida
 
-- **"Tengo un reto nuevo y nada más"** → 0101 → 0102 → 0103 → 0104 → 0201 → 0202 → 0203 → 0204 → 0301…
-- **"Ya tengo research, pero está disperso"** → 0103 (filtrar) → 0104 → 0201 → 0202.
-- **"Ya tengo el reto y métricas, necesito ideas"** → 0301 → 0302 → 0303 → 0304.
-- **"Tengo una hipótesis y quiero validarla"** → 0401 → 0402 → 0403 → 0404.
-- **"Ya lanzamos una intervención, queremos leer las métricas"** → 0405 → 0404 (decidir).
+- **"Tengo un reto nuevo y nada más"** → 0101 → 0102 → 0103 → 0104 → 0201 → 0202 → 0203 → 0204 → 0301 → 0302 → 0303 → 0304 → 0305 → 0401 → 0402 → 0403 → 0404
+- **"Ya tengo research, pero está disperso"** → 0103 (filtrar) → 0104 → 0201 → 0202
+- **"Ya tengo el reto y métricas, necesito ideas"** → 0301 → 0302 → 0303 → 0304 → 0305
+- **"Tengo una hipótesis y quiero validarla"** → 0401 → 0402 → 0403
+- **"Ya lanzamos una intervención, queremos leer las métricas"** → 0404 → 0403 (decidir)
 
 ## 4. Principios transversales (válidos en cualquier fase)
 

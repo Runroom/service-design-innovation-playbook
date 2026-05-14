@@ -191,58 +191,58 @@ Entender el reto, el sistema y las señales antes de decidir nada.
 
 | Skill | Habilidad |
 |---|---|
-| `descubrir-comprender-contexto` | Primera lectura del reto y su contexto estratégico (sin proponer soluciones todavía). |
-| `descubrir-mapear-sistema` | Mapeo del sistema de servicio: actores, canales, procesos, handoffs, frontstage y backstage. |
-| `descubrir-investigar-evidencias` | Recogida y selección de señales cualitativas, cuantitativas y operativas. |
-| `descubrir-detectar-patrones` | Agrupación de señales y detección de temas recurrentes, tensiones y contradicciones. |
+| `descubrir-comprender-contexto-y-reto` | Primera lectura del reto y su contexto estratégico (sin proponer soluciones todavía). |
+| `descubrir-explorar-como-funciona-el-servicio` | Exploración abierta del sistema: actores, canales, procesos, handoffs, frontstage/backstage y puntos ciegos. |
+| `descubrir-investigar-y-capturar-evidencias` | Recogida y selección de señales cualitativas, cuantitativas y operativas, trazables y con contexto. |
+| `descubrir-detectar-patrones-iniciales` | Agrupación de evidencias y detección de temas recurrentes, tensiones, contradicciones y excepciones — con nivel de confianza. |
 
-**Úsalas cuando digas:** "entender el reto", "mapear actores", "capturar evidencias", "detectar patrones", "agrupar señales", "ver dependencias del servicio".
+**Úsalas cuando digas:** "entender el reto", "explorar cómo funciona el servicio", "capturar evidencias", "detectar patrones", "agrupar señales", "abrir la mirada de sistema".
 
 ---
 
 ### 02 · Definir y sintetizar
 
-Convertir señales en aprendizajes, modelar el servicio y formular el reto.
+Convertir señales en aprendizajes, modelar el servicio y formular el reto con impacto.
 
 | Skill | Habilidad |
 |---|---|
-| `definir-sintetizar-evidencias` | Convertir señales dispersas en aprendizajes que activan decisión. |
-| `definir-narrativa-insights` | Construir una narrativa de insights conectada con el reto. |
-| `definir-modelar-servicio` | Representar el servicio: journey, blueprint, frontstage/backstage. |
-| `definir-formular-reto` | Formular el reto con impacto, valor, cambio esperado y métricas. |
+| `definir-sintetizar-evidencias-y-aprendizajes` | Convertir evidencias y patrones en aprendizajes accionables, con sesgos, áreas inexploradas y decisión que activa. |
+| `definir-construir-lectura-sistemica-de-los-aprendizajes` | Lectura sistémica que conecta experiencia, backstage, actores, procesos e impacto para que emerjan retos y decisiones. |
+| `definir-modelar-el-servicio-para-explicar-el-diagnostico` | Modelo intencionado del servicio (journey, blueprint) con momentos de la verdad, factores higiénicos/motivacionales, generadores de expectativas y handoffs. |
+| `definir-formular-retos-con-impacto-idg` | Ficha de reto en formato Impact-Driven Growth™ (Negocio · Reto · Cambio esperado) lista para copiar a la herramienta IDG. |
 
-**Úsalas cuando digas:** "sintetizar evidencias", "qué hemos aprendido", "construir narrativa", "modelar el servicio", "definir el reto", "preparar el brief de innovación".
+**Úsalas cuando digas:** "sintetizar evidencias", "qué hemos aprendido", "lectura sistémica", "modelar el servicio para el diagnóstico", "formular el reto con IDG".
 
 ---
 
 ### 03 · Idear y formular apuestas
 
-Generar y priorizar iniciativas e hipótesis testeables.
+Generar, seleccionar, esbozar y convertir iniciativas en hipótesis priorizadas.
 
 | Skill | Habilidad |
 |---|---|
-| `idear-generar-iniciativas` | Generar iniciativas diversas conectadas con el reto (no solo digitales, no solo IA). |
-| `idear-converger-iniciativas` | Comparar y seleccionar iniciativas a seguir trabajando. |
-| `idear-formular-hipotesis` | Convertir una iniciativa en una hipótesis testeable. |
-| `idear-priorizar-hipotesis` | Priorizar hipótesis por valor potencial y riesgo / incógnita. |
+| `idear-generar-iniciativas` | Abanico de iniciativas de distinto tamaño (ajuste puntual → cambio sistémico), sin filtrar todavía. |
+| `idear-converger-y-seleccionar-iniciativas` | Pocas iniciativas prometedoras y diversas, con listado limpio final como acciones concretas. |
+| `idear-esbozar-el-escenario-to-be-de-una-iniciativa` | Esbozo provisional de cómo cambiaría el servicio si la iniciativa funcionase — frontstage, backstage, expectativas, dependencias. |
+| `idear-formular-hipotesis` | Hipótesis causales testeables con la lógica "Creemos que si X, provocará Y, lo que moverá Z". |
+| `idear-priorizar-hipotesis-riesgo-valor` | Priorización por 4 cuadrantes (Implementar y medir · Experimentar · Aparcar · Descartar) con recomendación de foco. |
 
-**Úsalas cuando digas:** "generar iniciativas", "ideación", "priorizar ideas", "formular hipótesis", "matriz riesgo-valor", "qué validamos primero".
+**Úsalas cuando digas:** "generar iniciativas", "seleccionar iniciativas", "esbozar el to-be", "formular hipótesis", "priorizar hipótesis", "matriz riesgo-valor".
 
 ---
 
 ### 04 · Validar, medir e iterar
 
-Aprender con la mínima inversión, decidir y medir impacto.
+Identificar la incógnita crítica, aprender con la mínima inversión, decidir y medir impacto.
 
 | Skill | Habilidad |
 |---|---|
-| `validar-priorizar-riesgos` | Decidir qué riesgo o incógnita resolver antes. |
-| `validar-disenar-experimentos` | Diseñar el experimento más ligero capaz de generar el aprendizaje. |
-| `validar-prototipar` | Definir el artefacto mínimo (pantalla, simulación, wizard of oz, roleplay…) para aprender. |
-| `validar-sintetizar-decidir` | Interpretar resultados y tomar decisión: continuar, pivotar, parar, profundizar. |
-| `validar-medir-metricas` | Seguimiento de métricas conectadas al reto, a la CPVM y a los outcomes. |
+| `validar-identificar-la-incognita-critica` | El "talón de Aquiles" de la hipótesis convertido en pregunta de aprendizaje accionable. |
+| `validar-disenar-experimentos` | Tres opciones de experimento (rápido · ligero · robusto) con qué aprender, cómo probar, qué observar y qué decisión permite. |
+| `validar-sintetizar-aprendizaje-y-decidir` | Aprendizaje clave, resultado vs criterio y decisión recomendada (avanzar/ajustar/repetir/descartar/pausar/repriorizar). |
+| `validar-medir-y-hacer-seguimiento-de-metricas` | Plan de seguimiento conectado a aprendizaje y decisión: señal, fuente, frecuencia, criterio de lectura y riesgo de mala interpretación. |
 
-**Úsalas cuando digas:** "diseñar experimento", "prototipar para aprender", "qué aprendimos del test", "decidir tras la validación", "leer métricas", "plan de medición".
+**Úsalas cuando digas:** "identificar la incógnita crítica", "diseñar experimento", "qué aprendimos del test", "decidir tras la validación", "plan de medición", "métricas vanity".
 
 ---
 
@@ -250,11 +250,11 @@ Aprender con la mínima inversión, decidir y medir impacto.
 
 | Punto de partida | Recorrido sugerido |
 |---|---|
-| Reto nuevo desde cero | 0101 → 0102 → 0103 → 0104 → 0201 → 0202 → 0203 → 0204 → 0301 → 0302 → 0303 → 0304 → 0401 → 0402 → 0403 → 0404 → 0405 |
+| Reto nuevo desde cero | 0101 → 0102 → 0103 → 0104 → 0201 → 0202 → 0203 → 0204 → 0301 → 0302 → 0303 → 0304 → 0305 → 0401 → 0402 → 0403 → 0404 |
 | Tengo research disperso | 0103 → 0104 → 0201 → 0202 |
-| Reto definido, necesito ideas | 0301 → 0302 → 0303 → 0304 |
-| Tengo hipótesis, quiero validar | 0401 → 0402 → 0403 → 0404 |
-| Ya lanzamos algo, leemos métricas | 0405 → 0404 |
+| Reto definido, necesito ideas | 0301 → 0302 → 0303 → 0304 → 0305 |
+| Tengo hipótesis, quiero validar | 0401 → 0402 → 0403 |
+| Ya lanzamos algo, leemos métricas | 0404 → 0403 |
 
 ## Principios transversales
 
@@ -283,13 +283,13 @@ El cuerpo sigue siempre la misma plantilla:
 
 ## Fuente y plantillas
 
-Estas skills derivan del AI Innovation Playbook completo, que incluye también:
+Estas skills derivan del **AI Innovation Playbook** completo (Service Design + Impact-Driven Growth™), que incluye también:
 
 - Fases de trabajo
-- 17 plantillas de servicio (mapa de servicio, journey, blueprint, reto, iniciativa, hipótesis, experimento, decisión, etc.)
+- Plantillas de servicio (mapa de servicio, journey, blueprint, ficha de reto, iniciativa, hipótesis, experimento, decisión, plan de medición, matriz riesgo-valor, etc.)
 - Guardarraíles IDG™
 
-El playbook está en `02_AI Innovation Playbook/` dentro de este repositorio.
+Las habilidades canónicas viven en el playbook web (`habilidades/` dentro de la documentación). El cuerpo de cada `SKILL.md` de este repo se mantiene alineado con la ficha canónica de la habilidad.
 
 ## Contribuir
 

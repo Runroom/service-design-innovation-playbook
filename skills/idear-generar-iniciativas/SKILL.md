@@ -1,60 +1,94 @@
 ---
 name: idear-generar-iniciativas
-description: Habilidad 0301 del AI Innovation Playbook. Úsala cuando el usuario pida "generar iniciativas", "ideación", "proponer intervenciones", "ideas para resolver el reto", "soluciones posibles" o quiera abrir un abanico de iniciativas conectadas con el reto, el valor y el sistema (no solo digitales, no solo IA).
+description: Habilidad 0301 del AI Innovation Playbook (fase Idear). Úsala cuando el usuario pida "generar iniciativas", "ideación", "abrir el abanico de ideas", "proponer formas de intervenir", "qué podríamos hacer". Genera iniciativas de distinto tamaño (ajuste puntual → cambio sistémico) sin filtrar todavía, sin formular hipótesis ni analizar riesgos en profundidad.
 ---
 
-# 0301 Generar iniciativas
-
-Eres una guía experta en ideación para innovación de servicios. Aplica la habilidad 0301 del AI Innovation Playbook.
+# Generar iniciativas
 
 ## Instrucción
 
-Genera posibles formas de intervenir en el servicio.
+Genera posibles iniciativas para responder al reto formulado.
 
-Propón iniciativas conectadas con el reto, el valor buscado y el cambio esperado. Pueden ser mejoras de experiencia, cambios operativos, automatizaciones, funcionalidades, mensajes, nuevos traspasos, eliminación de pasos o soluciones con IA.
+Parte del reto, las evidencias, los aprendizajes y el cambio esperado. El objetivo es abrir un abanico de ideas que puedan ayudar a mejorar la situación, sin cerrar todavía la solución ni evaluar en profundidad su viabilidad.
 
-No te limites a ideas digitales. No propongas iniciativas desconectadas del reto o del sistema de servicio.
+Permite iniciativas de distinto tamaño y naturaleza: desde ajustes pequeños hasta cambios más transformadores del servicio.
+
+Puedes proponer, por ejemplo:
+
+- ajustes pequeños;
+- mejoras en un mensaje, contenido o interacción;
+- optimizaciones de un touchpoint;
+- cambios en un tramo de experiencia;
+- eliminación de pasos, fricciones o puntos de contacto;
+- creación de nuevos touchpoints, canales o apoyos;
+- cambios en procesos, coordinación, roles, datos, sistemas o backstage.
+
+No filtres demasiado pronto. En esta habilidad buscamos generar posibilidades, no decidir todavía cuáles son las mejores.
+
+Las iniciativas deben estar conectadas con el reto, pero pueden explorar caminos distintos. Cada una debería ayudar a imaginar qué podríamos hacer, a quién podría afectar y qué cambio podría provocar.
+
+No formules todavía hipótesis completas, no diseñes el escenario to be y no analices riesgos en profundidad. La selección, la priorización, la formulación de hipótesis y el análisis de riesgos vendrán después.
 
 ## Mentalidad activa
 
-Orientación a impacto y valor, con apertura del pensamiento de diseño.
-
-## Entrada mínima que debes pedir si no la tienes
-
-- Reto formulado.
-- Valor o cambio esperado.
-- Aprendizajes principales.
-
-## Información que puede enriquecer la generación (opcional)
-
-- CPVM.
-- Métricas.
-- Mapa del servicio.
-- Restricciones.
-- Fricciones y oportunidades.
-- Capacidades de IA disponibles.
-- Dependencias operativas.
-
-## Salida esperada
-
-Devuelve una lista breve de iniciativas (entre 5 y 10), cada una con:
-
-1. **Nombre de la iniciativa**
-2. **Qué parte del reto aborda**
-3. **Qué cambio busca provocar**
-4. **Qué valor podría generar**
-5. **Qué parte del servicio toca**
-6. **Riesgos o dudas iniciales**
-
-Asegúrate de diversificar: mezcla iniciativas operativas, de experiencia, de comunicación, con y sin IA.
+Principal: orientación a impacto y valor, con apertura del pensamiento de diseño.
 
 ## Guardarraíles IDG™
 
-Antes de cerrar, revisa calidad e impacto: sistema, valor, decisión, aprendizaje, criterio IA y momento del proceso.
+Antes de cerrar esta habilidad, revisa si el resultado ayuda a entender mejor el servicio, generar aprendizaje y tomar mejores decisiones.
 
-## Plantillas relacionadas
+Usa como referencia los guardarraíles IDG™: sistema, valor, decisión, aprendizaje, criterio IA y momento del proceso.
 
-- `04_Plantillas/070_Iniciativa.md`
-- `04_Plantillas/050_Arquitectura de impacto.md`
-- `04_Plantillas/040_Reto.md`
-- `04_Plantillas/010_Mapa del servicio actual.md`
+**En esta habilidad, revisa especialmente:** no limitar la ideación demasiado pronto; asegúrate de que las iniciativas están conectadas con el reto, pero que exploran distintos tamaños, enfoques y formas de intervenir.
+
+## Entrada mínima
+
+Necesitas al menos:
+
+- reto formulado;
+- valor o cambio esperado;
+- aprendizajes principales.
+
+## Información que puede ayudar
+
+Si existe, revisa también:
+
+- CPVM;
+- métricas;
+- mapa del servicio;
+- restricciones;
+- fricciones y oportunidades;
+- capacidades de IA disponibles;
+- dependencias operativas.
+
+## Salida esperada
+
+Produce un abanico de iniciativas posibles para responder al reto.
+
+Para cada iniciativa, incluye solo:
+
+- **Nombre de la iniciativa:** una formulación breve y fácil de recordar.
+- **Qué propone:** qué idea, acción, ajuste, cambio o intervención plantea.
+- **A quién podría ayudar o afectar:** persona usuaria, cliente, empleado, equipo, stakeholder o actor implicado.
+- **Parte del servicio relacionada:** momento, canal, touchpoint, proceso, equipo o sistema donde podría actuar.
+- **Cambio que busca provocar:** qué comportamiento, percepción, decisión, coordinación o resultado podría cambiar.
+
+Cierra con una agrupación ligera de las iniciativas, si ayuda a leerlas mejor. Por ejemplo:
+
+- ajustes pequeños;
+- mejoras de touchpoint;
+- cambios en un tramo de experiencia;
+- cambios operativos o de coordinación;
+- creación o eliminación de touchpoints;
+- ideas más transformadoras.
+
+No evalúes todavía riesgos, viabilidad ni prioridad. Eso se trabajará en las siguientes habilidades.
+
+## Recursos relacionados
+
+Usa estos recursos solo si ayudan a pensar, ordenar o documentar mejor el trabajo. No hace falta completarlos todos.
+
+- Iniciativa
+- Arquitectura de impacto
+- Ficha de Reto
+- Mapa del servicio actual

@@ -1,61 +1,75 @@
 ---
 name: idear-formular-hipotesis
-description: Habilidad 0303 del AI Innovation Playbook. Úsala cuando el usuario pida "formular hipótesis", "convertir iniciativa en hipótesis", "expresar la apuesta", "definir hipótesis testeables" o quiera relacionar acción, cambio esperado y valor de manera que se pueda poner a prueba.
+description: Habilidad 0304 del AI Innovation Playbook (fase Idear). Úsala cuando el usuario pida "formular hipótesis", "convertir iniciativa en hipótesis testeable", "qué creemos que va a pasar", "redactar hipótesis con lógica causal". Cada hipótesis sigue el formato "Creemos que si [iniciativa], esto provocará [cambio observable], lo que moverá [métrica]" con supuestos y lógica causal explícitos.
 ---
 
-# 0303 Formular hipótesis
-
-Eres una guía experta en formulación de hipótesis para innovación. Aplica la habilidad 0303 del AI Innovation Playbook.
+# Formular hipótesis
 
 ## Instrucción
 
-Convierte una iniciativa en una hipótesis clara.
+Formula hipótesis verificables a partir de una iniciativa seleccionada y su escenario to be.
 
-Explica qué cambio crees que puede producirse, para quién, gracias a qué propuesta y por qué tendría valor. La hipótesis debe poder ponerse a prueba.
+Una hipótesis debe convertir una creencia en una proposición causal clara: qué creemos que ocurrirá, qué comportamiento esperamos provocar y qué señal de impacto debería moverse.
 
-No escribas la hipótesis como una afirmación vaga ni como una solución cerrada. Debe expresar una relación entre acción, cambio esperado y valor.
+Usa esta lógica:
+
+> Creemos que si [iniciativa], esto provocará [cambio observable / outcome], lo que moverá [métrica o señal de impacto].
+
+Entrega únicamente hipótesis que estén suficientemente claras para ser priorizadas después por riesgo y valor. Si una hipótesis resulta vaga, demasiado amplia, difícil de observar o sin lógica causal clara, reformúlala antes de incluirla en la salida.
+
+No incluyas hipótesis incompletas, dudas sueltas ni ideas que todavía necesiten madurar. Cada hipótesis debe poder pasar directamente a la siguiente habilidad: priorizar hipótesis por riesgo y valor.
 
 ## Mentalidad activa
 
-Orientación a impacto y valor, y pensamiento iterativo e incremental.
-
-## Entrada mínima que debes pedir si no la tienes
-
-- Una iniciativa seleccionada.
-- Reto.
-- Cambio o valor esperado.
-
-## Información que puede enriquecer la hipótesis (opcional)
-
-- CPVM.
-- Outcomes.
-- Métricas.
-- Evidencias.
-- Aprendizajes.
-- Riesgos.
-- Segmento o actor afectado.
-- Parte del servicio donde actuará la iniciativa.
-
-## Salida esperada
-
-Devuelve una hipótesis con esta estructura:
-
-1. **Iniciativa o intervención**
-2. **Actor o usuario afectado**
-3. **Cambio de comportamiento esperado**
-4. **Valor que se espera generar**
-5. **Señal que permitiría observar si tiene base**
-6. **Riesgos e incógnitas principales**
-
-Puedes proponer también una versión en frase: "Creemos que [intervención] para [actor] producirá [cambio] que generará [valor]. Lo sabremos cuando [señal]."
+Principal: orientación a impacto y valor, pensamiento iterativo e incremental, y síntesis para activar decisiones.
 
 ## Guardarraíles IDG™
 
-Antes de cerrar, revisa calidad e impacto: sistema, valor, decisión, aprendizaje, criterio IA y momento del proceso.
+Antes de cerrar esta habilidad, revisa si el resultado ayuda a entender mejor el servicio, generar aprendizaje y tomar mejores decisiones.
 
-## Plantillas relacionadas
+Usa como referencia los guardarraíles IDG™: sistema, valor, decisión, aprendizaje, criterio IA y momento del proceso.
 
-- `04_Plantillas/080_Hipotesis.md`
-- `04_Plantillas/070_Iniciativa.md`
-- `04_Plantillas/050_Arquitectura de impacto.md`
-- `04_Plantillas/090_Riesgos e incognitas - preguntas de aprendizaje.md`
+**En esta habilidad, revisa especialmente:** no escribir hipótesis vagas ni soluciones cerradas; asegúrate de que cada hipótesis conecta iniciativa, cambio observable, métrica o señal de impacto y una lógica causal clara.
+
+## Entrada mínima
+
+Necesitas al menos:
+
+- una iniciativa seleccionada;
+- el escenario to be de la iniciativa;
+- el reto formulado con impacto;
+- el cambio esperado;
+- señales o métricas de impacto disponibles.
+
+## Información que puede ayudar
+
+Si existe, revisa también:
+
+- CPVM;
+- outcomes;
+- métricas;
+- evidencias;
+- aprendizajes;
+- riesgos;
+- segmento o actor afectado;
+- parte del servicio donde actuará la iniciativa.
+
+## Salida esperada
+
+Produce una lista de hipótesis que incluya:
+
+- **Hipótesis formulada:** frase causal completa.
+  - **Iniciativa asociada:** qué acción activa la hipótesis.
+  - **Cambio observable esperado:** qué debería hacer, decidir, completar, reducir, repetir o cambiar una persona, equipo o sistema.
+  - **Métrica o señal de impacto:** qué señal debería moverse si la hipótesis tiene base.
+- **Lógica causal:** por qué parece razonable pensar que la iniciativa puede provocar ese cambio.
+- **Supuestos principales:** qué tendría que ser cierto para que la hipótesis funcione.
+
+## Recursos relacionados
+
+Usa estos recursos solo si ayudan a pensar, ordenar o documentar mejor el trabajo. No hace falta completarlos todos.
+
+- Hipotesis
+- Iniciativa
+- Arquitectura de impacto
+- Riesgos e incógnitas — preguntas de aprendizaje
