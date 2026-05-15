@@ -12,21 +12,18 @@ Repositorio público de **Agent Skills** que operacionalizan un playbook de inno
 .
 ├── README.md                        # Documentación pública del set de skills
 ├── AGENTS.md                        # Este archivo
-├── skills/                          # Skills instalables (raíz pública)
+├── skills/                          # 18 skills instalables (raíz pública)
 │   ├── playbook-guia/               # Skill orquestadora
 │   │   └── SKILL.md
-│   ├── descubrir-*/                 # 4 skills de la fase 01
-│   ├── definir-*/                   # 4 skills de la fase 02
-│   ├── idear-*/                     # 4 skills de la fase 03
-│   └── validar-*/                   # 5 skills de la fase 04
-├── 02_AI Innovation Playbook/       # Material fuente del playbook
-│   ├── 01_Introduccion...md
-│   ├── 02_Fases de trabajo/
-│   ├── 03_Habilidades/              # Habilidades originales (fuente de las skills)
-│   └── 04_Plantillas/               # Plantillas del playbook
+│   ├── descubrir-*/                 # 4 skills de la fase 01 (0101–0104)
+│   ├── definir-*/                   # 4 skills de la fase 02 (0201–0204)
+│   ├── idear-*/                     # 5 skills de la fase 03 (0301–0305)
+│   └── validar-*/                   # 4 skills de la fase 04 (0401–0404)
 └── .claude/
     └── skills -> ../skills          # Symlink para autodescubrimiento local
 ```
+
+**Material fuente canónico:** las habilidades originales viven en el repositorio `InnovationPlaybook-web` (carpeta `site/src/content/docs/habilidades/`). Cada `SKILL.md` de este repo deriva de su ficha canónica correspondiente.
 
 ## Convenciones para crear o modificar skills
 
@@ -44,12 +41,10 @@ Repositorio público de **Agent Skills** que operacionalizan un playbook de inno
 ```markdown
 ---
 name: <nombre-kebab-case>
-description: Habilidad XXXX del AI Innovation Playbook. Úsala cuando el usuario pida "<frase 1>", "<frase 2>"... Resumen breve del entregable.
+description: Habilidad XXXX del AI Innovation Playbook (fase <fase>). Úsala cuando el usuario pida "<frase 1>", "<frase 2>"... Resumen breve del entregable.
 ---
 
-# XXXX <Título de la habilidad>
-
-Eres una guía experta en <ámbito>. Aplica la habilidad XXXX del AI Innovation Playbook.
+# <Título de la habilidad>
 
 ## Instrucción
 ...
@@ -57,37 +52,33 @@ Eres una guía experta en <ámbito>. Aplica la habilidad XXXX del AI Innovation 
 ## Mentalidad activa
 ...
 
-## Entrada mínima que debes pedir si no la tienes
+## Guardarraíles IDG™
 ...
 
-## Información que puede enriquecer ... (opcional)
+## Entrada mínima
+...
+
+## Información que puede ayudar (opcional)
 ...
 
 ## Salida esperada
 ...
 
-## Guardarraíles IDG™
-...
-
-## Plantillas relacionadas
-- `04_Plantillas/<plantilla>.md`
+## Recursos relacionados
+- <Plantilla>
 ```
 
 ### Descripción y activación
 
 La `description` del frontmatter es lo único que se carga en contexto antes de invocar la skill. Debe:
 
-- Indicar la habilidad numérica del playbook (0101, 0102…).
+- Indicar la habilidad numérica del playbook (0101, 0102…) y la fase.
 - Incluir frases de activación en castellano entre comillas.
 - Resumir el entregable esperado.
 
 ### Idioma
 
 Todo el contenido va en **castellano** para mantener coherencia con el playbook fuente.
-
-## Material fuente
-
-Cada skill deriva de una ficha en `02_AI Innovation Playbook/03_Habilidades/`. Si se modifica una skill, la ficha fuente sirve como referencia canónica de Instrucción, Mentalidad, Entrada mínima y Salida esperada.
 
 ## Instalación end-to-end
 
@@ -99,4 +90,4 @@ Cada skill deriva de una ficha en `02_AI Innovation Playbook/03_Habilidades/`. S
 
 - Mantener cada `SKILL.md` enfocado y breve (< 500 líneas) — descripciones específicas mejoran el routing automático.
 - No duplicar contenido entre skills; si algo es transversal, vive en `playbook-guia` o en el material del playbook.
-- Las plantillas viven en `02_AI Innovation Playbook/04_Plantillas/`; las skills sólo las referencian.
+- Las plantillas viven en el playbook canónico (carpeta `plantillas/`); las skills sólo las referencian por nombre.
